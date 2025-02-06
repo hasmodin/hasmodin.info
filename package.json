@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://hasmodin.github.io/updateportfolio",
+  "homepage": "https://hasmodin.github.io/hasmodin.info/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "serve": "vite preview",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
     
    
   },
