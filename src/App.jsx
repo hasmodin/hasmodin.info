@@ -3,9 +3,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact.jsx";
 import Skills from "./components/Skills.jsx";
 import Experience from "./components/Experience.jsx";
-import Projects from "./components/Projects.jsx"
-
-
+import Projects from "./components/Projects.jsx";
 import {Routes, Route } from "react-router-dom";
 
 export default function App() {
